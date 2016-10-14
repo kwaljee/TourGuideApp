@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Toronto Tour Guide App </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="address">40 Bay Street, Toronto, ON</string>
+    <string name="place">Air Canada Centre</string>
+    <string name="game_info">Game Info</string>
+    <string name="date_1">Monday, Oct 17 8:08 PM</string>
+    <string name="team_1">Toronto Blue Jays vs. Clevland Browns</string>
+    <string name="date_2">Friday, October 14, 2016, 7:00 PM</string>
+    <string name="team_2">Toronto Raptors v San Lorenzo de Almagro</string>
+    <string name="history_para">The history of Toronto, Canada begins several millennia ago. Archaeological finds in the area have found artifacts of First Nations settlements dating back several thousand years. The Wyandot people were likely the first group to live in the area, followed by the Iroquois. When Europeans first came to Toronto, they found a small village known as Teiaiagon on the banks of the Humber River. Between visits by European explorers, the village was abandoned by the Iroquois, who moved south of Lake Ontario and the Mississaugas, a branch of the Ojibwa settled along the north shore of the lake.</string>
+    <string name="wiki_link_1">To learn more, please visit: https://en.wikipedia.org/wiki/History_of_Toronto</string>
+    <string name="map_info">A map will be added when I learn more about Google APIs in the next lesson!</string>
+    <string name="rom_info">The Royal Ontario Museum is a museum of art, world culture and natural history in Toronto, Canada. It is one of the largest museums in North America, the largest in Canada, and attracts more than one million visitors every year, the second most for a Canadian art museum after the Montreal Museum of Fine Arts. The museum is north of Queen\'s Park, in the University of Toronto district, with its main entrance on Bloor Street West. The Museum subway station of the Toronto Transit Commission is named after the ROM, and since 2008, it is decorated to resemble the institution\'s collection. St. George station is close to the museum\'s new entrance as well.</string>
+    <string name="the_cn_tower">the_cn_tower</string>
+    <string name="city_population_info">In the 2011 census, Toronto had a population of 2,615,060, making it the fifth largest city in North America.</string>
+    <string name="wiki_link_2">To learn more, please visit: https://en.wikipedia.org/wiki/Toronto</string>
+    <string name="restaurant_desc_1">The Burger\'s Priest has the best burgers in town!</string>
+    <string name="restaurant_desc_2">Doomie\'s offers a fresh take on classics, try the vegan Big Mac!</string>
+    <string name="osc_info">Ontario Science Centre is a science museum near the Don Valley Parkway about 11 kilometres (6.8 mi) northeast of downtown on Don Mills Road just south of Eglinton Avenue East. It is built down the side of a wooded ravine formed by one branch of the Don River located in Flemingdon Park.</string>
+    <string name="the_osc_desc">the_osc_desc</string>
+    <string name="the_tower_info">The CN Tower is a 553.33 m-high (1,815.4 ft) concrete communications and observation tower in downtown Toronto, Ontario, Canada.Built on the former Railway Lands, it was completed in 1976, becoming the world\'s tallest free-standing structure and world\'s tallest tower at the time. It held both records for 34 years until the completion of Burj Khalifa and Canton Tower in 2010. Since then, it became the 3rd tallest tower in the world and remains the tallest free-standing structure in the Western Hemisphere, a signature icon of Toronto\'s skyline, and a symbol of Canada,attracting more than two million international visitors annually. Its name \'CN\' originally referred to Canadian National, the railway company that built the tower. Following the railway\'s decision to divest non-core freight railway assets, prior to the company\'s privatization in 1995, it transferred the tower to the Canada Lands Company, a federal Crown corporation responsible for real estate development. Since the name CN Tower became common in daily usage, the abbreviation was eventually expanded to Canadian National Tower or Canada\'s National Tower. However, neither of these names is commonly used. In 1995, the CN Tower was declared one of the modern Seven Wonders of the World by the American Society of Civil Engineers. It also belongs to the World Federation of Great Towers, where it holds second-place ranking.</string>
+    <string name="the_tower_img">the_tower_img</string>
+    <string name="toronto">Toronto</string>
+    <string name="toronto_skyline">toronto_skyline</string>
+    <string name="icon_listview">icon_listview</string>
+    <string name="toronto_tour_guide_app">Toronto Tour Guide App</string>
+    <string name="thesix_toronto_ca">thesix@toronto.ca</string>
+    <string name="maple_leaf_icon">maple_leaf_icon</string>
+</resources>

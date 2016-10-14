@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.tourguideapp2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".HistoryActivity"
+            android:configChanges="orientation"
+            android:label="History of Toronto"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PopulationActivity"
+            android:configChanges="orientation"
+            android:label="Population of Toronto"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MapActivity"
+            android:configChanges="orientation"
+            android:label="Explore Toronto"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- The meta-data element is needed for versions lower than 4.1 -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.tourguideapp2.MainActivity" />
+
+        <activity
+            android:name=".TowerActivity"
+            android:configChanges="orientation"
+            android:label="The CN Tower"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MuseumActivity"
+            android:configChanges="orientation"
+            android:label="The ROM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScienceActivity"
+            android:configChanges="orientation"
+            android:label="Ontario Science Centre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BasketballActivity"
+            android:configChanges="orientation"
+            android:label="Upcoming Toronto Raptors Events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BaseballActivity"
+            android:configChanges="orientation"
+            android:label="Upcoming Toronto Blue Jays Events"
+            android:screenOrientation="portrait" />
+        <activity android:name=".RestaurantActivity1"
+            android:configChanges="orientation"
+            android:label="Restaurant Review"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RestaurantActivity2"
+            android:configChanges="orientation"
+            android:label="Restaurant Review"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

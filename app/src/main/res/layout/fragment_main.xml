@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_general"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tourguideapp2.MainFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+    <ImageView
+        android:id="@+id/skyline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/skyline"
+        android:contentDescription="@string/toronto_skyline" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/toronto"
+            android:textColor="#ffffff"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded" />
+
+    <ListView
+        android:id="@+id/list_general"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skyline"
+        android:layout_gravity="bottom"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:orientation="vertical" />
+    </RelativeLayout>
+
+</FrameLayout>
