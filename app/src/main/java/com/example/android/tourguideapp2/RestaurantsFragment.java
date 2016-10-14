@@ -25,8 +25,8 @@ public class RestaurantsFragment extends Fragment {
 
         //Assign values within an array list
         ArrayList<ListInfo> info = new ArrayList<ListInfo>();
-        info.add(new ListInfo("The Burger's Priest", "Fast Food", R.drawable.restaurant));
-        info.add(new ListInfo("Doomie's", "Vegan Cuisine", R.drawable.restaurant));
+        info.add(new ListInfo(getString(R.string.array_restaurant1), getString(R.string.array_restaurant1_desc), R.drawable.restaurant));
+        info.add(new ListInfo(getString(R.string.array_restaurant2), getString(R.string.array_restaurant2_desc), R.drawable.restaurant));
 
         //Create an object for a custom adapter
         CustomViewAdapter adapter = new CustomViewAdapter(getActivity(), info);

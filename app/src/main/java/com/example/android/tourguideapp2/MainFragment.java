@@ -26,9 +26,9 @@ public class MainFragment extends Fragment {
 
         //Assign values within an array list
         ArrayList<ListInfo> info = new ArrayList<ListInfo>();
-        info.add(new ListInfo("History", "Learn about Toronto", R.drawable.general));
-        info.add(new ListInfo("Population", "The current population of Toronto", R.drawable.general));
-        info.add(new ListInfo("Map", "Explore a map of the city", R.drawable.general));
+        info.add(new ListInfo(getString(R.string.array_history), getString(R.string.array_history_desc), R.drawable.general));
+        info.add(new ListInfo(getString(R.string.array_population), getString(R.string.array_population_desc), R.drawable.general));
+        info.add(new ListInfo(getString(R.string.array_map), getString(R.string.array_map_desc), R.drawable.general));
 
         //Create an object for a custom adapter
         CustomViewAdapter adapter = new CustomViewAdapter(getActivity(), info);

@@ -24,9 +24,9 @@ public class AttractionsFragment extends Fragment {
 
         //Assign values within an array list
         ArrayList<ListInfo> info = new ArrayList<ListInfo>();
-        info.add(new ListInfo("CN Tower", "Iconic tower with revolving restaurant", R.drawable.attractions));
-        info.add(new ListInfo("Royal Ontario Museum", "Huge range of culture and nature exhibits", R.drawable.attractions));
-        info.add(new ListInfo("Ontario Science Centre", "Kid friendly museum with hands-on exhibits", R.drawable.attractions));
+        info.add(new ListInfo(getString(R.string.array_cn_tower), getString(R.string.array_cn_tower_desc), R.drawable.attractions));
+        info.add(new ListInfo(getString(R.string.array_rom), getString(R.string.array_rom_desc), R.drawable.attractions));
+        info.add(new ListInfo(getString(R.string.array_osc), getString(R.string.array_osc_desc), R.drawable.attractions));
 
         //Create an object for a custom adapter
         CustomViewAdapter adapter = new CustomViewAdapter(getActivity(), info);

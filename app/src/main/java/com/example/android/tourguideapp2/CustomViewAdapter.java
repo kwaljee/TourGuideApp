@@ -36,7 +36,4 @@ public class CustomViewAdapter extends ArrayAdapter<ListInfo>{
 
         return listItemView;
     }
-
-
-
 }

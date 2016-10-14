@@ -34,4 +34,24 @@
     <string name="toronto_tour_guide_app">Toronto Tour Guide App</string>
     <string name="thesix_toronto_ca">thesix@toronto.ca</string>
     <string name="maple_leaf_icon">maple_leaf_icon</string>
+    <string name="array_cn_tower">CN Tower</string>
+    <string name="array_cn_tower_desc">Iconic tower with revolving restaurant</string>
+    <string name="array_rom">Royal Ontario Museum</string>
+    <string name="array_rom_desc">Huge range of culture and nature exhibits</string>
+    <string name="array_osc">Ontario Science Centre</string>
+    <string name="array_osc_desc">Kid friendly museum with hands-on exhibits</string>
+    <string name="array_basketball">Toronto Raptors vs. San Lorenzo de Almagro</string>
+    <string name="array_basketball_desc">Tap for more info</string>
+    <string name="array_baseball">Toronto Blue Jays vs. Clevland Browns</string>
+    <string name="array_baseball_desc">Tap for more info</string>
+    <string name="array_history">History</string>
+    <string name="array_history_desc">Learn about Toronto</string>
+    <string name="array_population">Population</string>
+    <string name="array_population_desc">The current population of Toronto</string>
+    <string name="array_map">Map</string>
+    <string name="array_map_desc">Explore a map of the city</string>
+    <string name="array_restaurant1">The Burger\'s Priest</string>
+    <string name="array_restaurant1_desc">Fast Food</string>
+    <string name="array_restaurant2">Doomie\'s</string>
+    <string name="array_restaurant2_desc">Vegan Cuisine</string>
 </resources>

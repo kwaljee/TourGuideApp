@@ -25,8 +25,8 @@ public class EventsFragment extends Fragment {
 
         //Assign values within an array list
         ArrayList<ListInfo> info = new ArrayList<ListInfo>();
-        info.add(new ListInfo("Toronto Raptors vs. San Lorenzo de Almagro", "Tap for more info", R.drawable.basketball));
-        info.add(new ListInfo("Toronto Blue Jays vs. Clevland Browns", "Tap for more info", R.drawable.baseball));
+        info.add(new ListInfo(getString(R.string.array_basketball), getString(R.string.array_basketball_desc), R.drawable.basketball));
+        info.add(new ListInfo(getString(R.string.array_baseball), getString(R.string.array_baseball_desc), R.drawable.baseball));
 
         //Create an object for a custom adapter
         CustomViewAdapter adapter = new CustomViewAdapter(getActivity(), info);
